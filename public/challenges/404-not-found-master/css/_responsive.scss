@@ -1,0 +1,15 @@
+@media (max-width: 1024px) {
+  main {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 425px) {
+  :root {
+    font-size: 50%;
+  }
+
+  body {
+    padding: 0 40px;
+  }
+}

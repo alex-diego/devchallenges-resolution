@@ -1,0 +1,115 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+}
+
+body {
+  width: 100vw;
+  padding: 0 77px;
+}
+
+h1, p, button {
+  font-family: 'Space Mono', monospace;
+}
+
+.button {
+  background-color: #333;
+  color: #fff;
+  padding: 24px 43px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Space Mono', monospace;
+  font-size: 1.4rem;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #333;
+  border: 2px solid #333;
+}
+
+header {
+  width: 100%;
+  max-width: 1900px;
+  margin: 40px auto;
+}
+
+header .logo {
+  font-family: 'Inconsolata', monospace;
+  font-weight: 700;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+
+main {
+  width: 100%;
+  max-width: 1900px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main h1 {
+  font-size: 6.4rem;
+  margin-bottom: 36px;
+}
+
+main p {
+  font-size: 2.4rem;
+  margin-bottom: 64px;
+  max-width: 400px;
+}
+
+main .img-container {
+  max-width: 539px;
+}
+
+main .img-container img {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  max-width: 1900px;
+  margin: 0 auto;
+  margin-top: 40px;
+  text-align: center;
+}
+
+footer span {
+  font-size: 1.4rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #BDBDBD;
+}
+
+@media (max-width: 1024px) {
+  main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 425px) {
+  :root {
+    font-size: 50%;
+  }
+  body {
+    padding: 0 40px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

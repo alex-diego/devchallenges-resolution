@@ -1,0 +1,48 @@
+$color-text: #333;
+$color-button: #333;
+$color-background: #fff;
+
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+body {
+  width: 100vw;
+  padding: 0 77px;
+}
+
+h1, p, button {
+  font-family: 'Space Mono', monospace;
+}
+
+.button {
+  background-color: $color-button;
+  color: $color-background;
+  padding: 24px 43px;
+
+  text-transform: uppercase;
+  text-decoration: none;
+
+  font-family: 'Space Mono', monospace;
+  font-size: 1.4rem;
+
+  transition: all .3s;
+}
+
+.button:hover {
+  background-color: $color-background;
+  color: $color-button;
+  border: 2px solid $color-button;
+}
+
+@import './_header';
+@import './myMain';
+@import './footer';
+@import './responsive';

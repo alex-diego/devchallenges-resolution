@@ -1,0 +1,27 @@
+main {
+  width: 100%;
+  max-width: 1900px;
+  margin: 0 auto;
+  
+  display: flex;
+  justify-content: space-between;
+
+  h1 {
+    font-size: 6.4rem;
+    margin-bottom: 36px;
+  }
+
+  p {
+    font-size: 2.4rem;
+    margin-bottom: 64px;
+    max-width: 400px;
+  }
+
+  .img-container {
+    max-width: 539px;
+  }
+
+  .img-container img {
+    width: 100%;
+  }
+}
